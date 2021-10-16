@@ -40,6 +40,7 @@ body{
     justify-content: center;
     flex-direction: column;
     text-decoration: none;
+    z-index: 1;
 }
 
 #google-classroom:hover{
@@ -132,4 +133,22 @@ body{
 
 #blanked{
     margin-top: 150px;
+}
+
+#spotify{
+    width: 40vw;
+    min-width: 300px;
+    height: 460px;
+    border-radius: 20px;
+    z-index: 10;
+    transition: 0.5s;
+}
+
+#spotify:hover{
+    width: 41vw;
+    min-width: 300px;
+    height: 460px;
+    box-shadow: 0px 10px 50px black;
+    z-index: 10;
+
 }
